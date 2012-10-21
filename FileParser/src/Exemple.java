@@ -5,7 +5,7 @@ public class Exemple {
 	public static void main(String args[])
 	{
 		CountHandler ct = new CountHandler();
-		File fl = new File("/var/tmp/monFichierTest.txt");
+		File fl = new File("monFichierTest.txt");
 		FileParser fp = new FileParser();
 		fp.parse(fl,ct);
 		System.out.print("le fichier contient " + ct.getCompL()+" lignes");
